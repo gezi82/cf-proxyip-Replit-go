@@ -1,0 +1,19 @@
+注册登录Replit容器
+
+https://replit.com/~
+
+登录后搜索go创建一个go的运行环境，进入go后把原来的main.go删除成删除里面的数据，把你准备好的main.go代码复制粘贴进去或上传进里面，再上传一个你准备好的ip.txt文件，这个文件里面都是cf家的中转反代ip，上传后点run运行，就能帮你筛选出有证书和没证书的反代中转ip，搭建节点时把有证书的ip填入workes代码中对应 let proxyIP = '' // 的 '' 里面，填完后面要加 // 扛 析释掉后面的内容，这样才不调用上面默认提供的反代域名，当然也可用旧代码直接填ip进 '' 里面。也就是说在vless节点代码里面需要修改两个地方，一个是uuid，另一个是proxyIP
+
+反代中转ip开源下载地址
+
+反代(中转)ip每天更新:
+
+https://zip.baipiao.eu.org
+
+https://github.com/ip-scanner/cloudflare/
+
+变量更改：vless和trojan
+
+vless部属使用旧板本代码需手动添加节点或使用pbp面板代码
+
+trojan部属使用cm大佬epeius代码需添加一个变量 PASSWORD ，最后域名/rg123获取节点
